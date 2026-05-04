@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.div-topo {
+    background-color: #1b3a1b;
+    height: 15vh;
+    width: 100%;
+
+
+} 
+
+.container-principal {
+    display: flex;
+    flex-direction: row; 
+    flex: 3; 
+}
+
+
+.div-lateral{
+    background-color: #1b3a4b;
+    width: 10%;
+    height: 100% ;
+}
+.container-coluna {
+    display: flex;
+    flex-direction: column; 
+    width: 90%;
+    height: 100%;
+
+}
+
+.div-conteudo {
+    background-color: #a19e9e ;
+    flex: 5; 
+}
+
+.div-base-direita {
+    background-color: #4e7775;
+    flex: 1; 
+}

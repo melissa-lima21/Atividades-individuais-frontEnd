@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #d3e5f5 0%, #90b3d6 100%);
+    color: #2c3e50;
+    overflow-x: hidden;
+}
+
+nav {
+   background-color: #1b3a4b; 
+    height: 4rem;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding-right: 4rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.link:hover { 
+    color:#90b3d6;
+}
+.section-one{
+    display: flex;
+    height: calc(100vh - 8rem); 
+    align-items: center;
+}
+.content-left {
+    width: 45%;
+    padding-left: 5rem;
+    padding-right: 2rem;
+}
+
+h1{
+    font-size: 4rem;
+    color: #126782;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    color: #126782;
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.hobbies-list{
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.hobbies-list li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.content-right{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.foto-perfil {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mask-image: linear-gradient(to left, black 70%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to left, black 70%, transparent 100%);
+}
+
+#main-footer {
+   background-color: #1b3a4b;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+}
